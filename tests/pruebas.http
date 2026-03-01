@@ -1,0 +1,27 @@
+### Pruebas de los Webhooks (Workflow 1 y Workflow 2 de RAG)
+### Estas peticiones se pueden ejecutar desde VS Code usando la extensión REST Client.
+
+@n8n_url = http://localhost:5678
+
+### 1. Ingesta de Documentos (Workflow 1)
+# Sube o procesa un texto simulando el workflow de ingesta. 
+# NOTA: En la realidad lo normal será subir un archivo binario mediante form-data 
+# a la URL que expongas en el Webhook de n8n.
+POST {{n8n_url}}/webhook/ingesta-documento
+Content-Type: application/json
+
+{
+    "filename": "ejemplo.txt",
+    "content": "La Inteligencia Artificial (IA) es un campo de la informática que se enfoca en crear sistemas que puedan realizar tareas que normalmente requieren inteligencia humana, como el aprendizaje, el razonamiento y la percepción. En el contexto de RAG (Retrieval-Augmented Generation), interactúa con bases vectoriales."
+}
+
+
+### 2. Consulta RAG (Workflow 2)
+# Simula una pregunta del usuario. 
+# El webhook configurado en n8n deberá estar escuchando en esta ruta.
+POST {{n8n_url}}/webhook/consulta-rag
+Content-Type: application/json
+
+{
+    "pregunta": "¿Qué es la Inteligencia Artificial?"
+}
