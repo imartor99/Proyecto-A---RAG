@@ -7,7 +7,7 @@
 # Sube o procesa un texto simulando el workflow de ingesta. 
 # NOTA: En la realidad lo normal será subir un archivo binario mediante form-data 
 # a la URL que expongas en el Webhook de n8n.
-POST {{n8n_url}}/webhook/ingesta-documento
+POST {{n8n_url}}/webhook-test/ingesta-documento
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
 ### 2. Consulta RAG (Workflow 2)
 # Simula una pregunta del usuario. 
 # El webhook configurado en n8n deberá estar escuchando en esta ruta.
-POST {{n8n_url}}/webhook/consulta-rag
+POST {{n8n_url}}/webhook-test/consulta-rag
 Content-Type: application/json
 
 {
