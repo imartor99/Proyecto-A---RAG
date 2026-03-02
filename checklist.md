@@ -18,12 +18,12 @@
 ## Fases Pendientes
 
 - **Fase 4: Workflow 1 (Ingesta de Documentos)**
-  - [ ] Recibir documento por Webhook.
-  - [ ] Extraer texto.
-  - [ ] Dividir en _chunks_ (~500 palabras / 50 solapamiento).
-  - [ ] Generar _embeddings_ con Ollama.
-  - [ ] Insertar vectores en Qdrant.
-  - [ ] Insertar historial de documento en PostgreSQL.
+  - [x] Recibir documento por Webhook.
+  - [x] Extraer texto.
+  - [x] Dividir en _chunks_ (~500 palabras / 50 solapamiento).
+  - [x] Generar _embeddings_ con Ollama.
+  - [x] Insertar vectores en Qdrant.
+  - [x] Insertar historial de documento en PostgreSQL.
 - **Fase 5: Workflow 2 (Consultas RAG)**
   - [ ] Recibir pregunta por Webhook.
   - [ ] Generar _embedding_ de la pregunta con Ollama.
