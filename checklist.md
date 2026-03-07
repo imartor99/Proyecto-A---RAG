@@ -25,11 +25,11 @@
   - [x] Insertar vectores en Qdrant.
   - [x] Insertar historial de documento en PostgreSQL.
 - **Fase 5: Workflow 2 (Consultas RAG)**
-  - [ ] Recibir pregunta por Webhook.
-  - [ ] Generar _embedding_ de la pregunta con Ollama.
-  - [ ] Buscar simulitudes con Qdrant (_similarity search_).
-  - [ ] Generar respuesta con Ollama Chat.
-  - [ ] Guardar consulta y contexto utilizado en PostgreSQL.
+  - [x] Recibir pregunta por Webhook.
+  - [x] Generar _embedding_ de la pregunta con Ollama.
+  - [x] Buscar simulitudes con Qdrant (_similarity search_).
+  - [x] Generar respuesta con Ollama Chat.
+  - [x] Guardar consulta y contexto utilizado en PostgreSQL.
 - **Fase 6 y 7: Documentación y Vídeo**
   - [ ] Capturas de los workflows.
   - [ ] Actualización del `README.md` y redacción del paso a paso `DEMO.md`.
