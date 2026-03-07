@@ -5,3 +5,5 @@ node_modules/
 n8n_data/
 postgres_data/
 qdrant_data/
+*.mkv
+*.mp4
