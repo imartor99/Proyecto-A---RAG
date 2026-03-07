@@ -15,8 +15,6 @@
   - [x] Credenciales internas creadas en el panel de n8n para enlazar con Postgres, Qdrant y Ollama.
   - [x] Archivo de extensiones REST Client (`tests/pruebas.http`) creado con las plantillas de llamadas a la API.
 
-## Fases Pendientes
-
 - **Fase 4: Workflow 1 (Ingesta de Documentos)**
   - [x] Recibir documento por Webhook.
   - [x] Extraer texto.
@@ -31,8 +29,8 @@
   - [x] Generar respuesta con Ollama Chat.
   - [x] Guardar consulta y contexto utilizado en PostgreSQL.
 - **Fase 6 y 7: Documentación y Vídeo**
-  - [ ] Capturas de los workflows.
-  - [ ] Actualización del `README.md` y redacción del paso a paso `DEMO.md`.
+  - [x] Capturas de los workflows.
+  - [x] Actualización del `README.md` y redacción del paso a paso `DEMO.md`.
   - [ ] Grabación y subida del vídeo con la demo (4-6 min).
 - **Fase 8: Entrega Final**
   - [ ] Generación del Pull Request (PR) y revisión contra rúbrica.
