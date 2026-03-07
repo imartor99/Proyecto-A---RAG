@@ -64,3 +64,11 @@ Este proceso gestiona el mecanismo RAG puro mediante memoria y busqueda semantic
 ## Demostracion y Comprobacion de Casos de Uso
 
 El uso y evaluacion objetiva del entorno se puede realizar sin clientes pesados, simplemente accionando el entorno desde la extension "REST Client" proporcionada por Visual Studio Code. Ejecutando progresivamente "Send Request" alojados en el fichero nativo incluido en la ruta `tests/pruebas.http`.
+
+## URL del video demostrativo
+
+- https://drive.google.com/file/d/1B4le-CruJTq0dw9Zh4S7bZGYzhsDCexD/view?usp=sharing
+
+## URL del repositorio
+
+https://github.com/imartor99/Proyecto-A---RAG
