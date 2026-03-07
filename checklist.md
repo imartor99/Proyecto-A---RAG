@@ -1,7 +1,5 @@
 # Estado del Proyecto A: Sistema RAG Educativo
 
-## Fases Completadas
-
 - **Fase 1: Configuración Inicial y Repositorio**
   - [x] Estructura de directorios (`docker/`, `postgres/`, `tests/`, etc.).
   - [x] Archivo `.gitignore` configurado.
@@ -31,6 +29,6 @@
 - **Fase 6 y 7: Documentación y Vídeo**
   - [x] Capturas de los workflows.
   - [x] Actualización del `README.md` y redacción del paso a paso `DEMO.md`.
-  - [ ] Grabación y subida del vídeo con la demo (4-6 min).
+  - [x] Grabación y subida del vídeo con la demo (4-6 min).
 - **Fase 8: Entrega Final**
-  - [ ] Generación del Pull Request (PR) y revisión contra rúbrica.
+  - [x] Generación del Pull Request (PR) y revisión contra rúbrica.
